@@ -19,7 +19,7 @@ import {Link} from 'react-router-dom';
                    let errors = {};
 
                    if (!values.fullName) {
-                    errors.fullName = 'full name is required';
+                    errors.fullName = 'Full name is required';
                   } 
 
                    if (!values.email) {
@@ -31,7 +31,7 @@ import {Link} from 'react-router-dom';
                    }
 
                    if (!values.password) {
-                    errors.email = 'password is required';
+                    errors.password = 'Password is required';
                   } 
 
                    return errors;
@@ -75,7 +75,7 @@ import {Link} from 'react-router-dom';
                                 value={values.fullName}
                                 
                                 />
-                                  {errors.fullName && touched.fullName && errors.fullName}
+                                  <p className="error">{errors.fullName && touched.fullName && errors.fullName}</p>
                     </div>
                     <div className="form-group ph-text">
                         <label>What's your Email</label>
@@ -90,7 +90,7 @@ import {Link} from 'react-router-dom';
                                 value={values.email}
                               
                              />
-                               {errors.email && touched.email && errors.email}                         
+                                <p className="error">{errors.email && touched.email && errors.email}</p>                         
                     </div>
                     <div className="form-group ph-text"> 
                         <label>Enter password </label>
@@ -103,7 +103,7 @@ import {Link} from 'react-router-dom';
                                 value={values.password}
                            
                               />
-                         {errors.password && touched.password && errors.password}
+                         <p className="error">{errors.password && touched.password && errors.password}</p>
                     </div>
                     <p className="pw-text text-center">By signing up you are agreeing to our terms of services and privacy policy</p>
                     <div className="form-group">

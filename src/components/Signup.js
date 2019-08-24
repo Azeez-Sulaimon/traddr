@@ -41,6 +41,8 @@ import {Link} from 'react-router-dom';
                      alert(JSON.stringify(values, null, 2));
                      setSubmitting(false);
                    }, 400);
+
+                   
                  }}
                >
                  {({
@@ -107,9 +109,9 @@ import {Link} from 'react-router-dom';
                     </div>
                     <p className="pw-text text-center">By signing up you are agreeing to our terms of services and privacy policy</p>
                     <div className="form-group">
-                       
+                       <Link to="/create-store">
                         <input type="submit" disabled={isSubmitting}  value="Create your account" className="btn save-btn btn-danger btn-lg" />
-                       
+                        </Link>
                     </div>
                 </form>
                  )}

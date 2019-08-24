@@ -1,0 +1,117 @@
+.cname {
+  /* position: relative; */
+  margin-top: 46px;
+  margin-left: 80px;
+  height: 33px;
+  /* left: 5.56%; */
+  right: 86.74%;
+  top: calc(50% - 33px/2 - 449.5px);
+  
+  font-family: Sailec;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height, or 118% */
+  
+  letter-spacing: -1.8px;
+  
+  color: #FC4761;
+}
+
+
+.create{
+
+  /* position: absolute; */
+  /* left: 50%;
+  right: 0%;
+  top: 0%;
+  bottom: -0.2%; */
+  
+  background: #FCFAFA;
+}
+
+body {
+  margin: 0;
+}
+
+.create-form{
+  margin: 129px 166px 364px 166px;
+}
+
+.save-btn {
+  
+
+/* left: 61.53%;
+right: 11.53%;
+top: 59.18%;
+bottom: 35.35%; */
+width: 100%;
+
+
+background: #FC4761;
+
+}
+
+.p-text{
+font-family: Graphik;
+font-size: 16px;
+line-height: 22px;
+color: #C7C5C5;
+}
+
+.ph-text{
+  font-family: Graphik;
+  font-size: 16px;
+  line-height: 22px;
+  color: #34414F;
+  }
+.user-text{
+font-family: Times;
+font-weight: bold;
+font-size: 32px;
+line-height: 22px;
+color: #34414F;
+}
+.pw-text{
+font-family: Graphik;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+color: #82868C;
+
+}
+.img{
+  padding-top: 170px;
+}
+
+.show{
+  position: absolute;
+height: 22px;
+left: 84.17%;
+right: 12.36%;
+top: calc(50% - 22px/2 + 81px);
+
+font-family: Graphik;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 137% */
+
+
+color: #34414F;
+}
+.google {
+background: #F7FAFA;
+border: 1px solid #A5B0B0;
+box-sizing: border-box;
+border-radius: 6px;
+width: 100%;
+color: #34414F;
+font-family: Graphik;
+font-size: 16px;
+line-height: 22px;
+height: 40px
+}
+.error {
+  color:#db2269;
+  font-size: 1em;
+  display: relative;
+}
